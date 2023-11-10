@@ -1,0 +1,17 @@
+
+.sticky{
+   align-items: center;
+    background-color: black;
+    width: 240px;
+    height: 40px;
+    border: 2px solid grey;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+a{
+    color: grey;
+}
+a:hover{
+    color: aqua;
+}

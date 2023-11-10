@@ -1,0 +1,46 @@
+.card{
+    width: 500px;
+    margin: 30px auto;
+}
+input{
+    
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 0 10px grey;
+    display: flex;
+    gap: 6px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+   align-items: center;
+}
+.margin{
+    margin-left: 3px;
+}
+.btn{
+    margin-top: 5px;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    border: 1px solid grey;
+    transition:0.5s;
+}
+.btn:hover{
+    padding: 14px;
+    background-color: blueviolet;
+    font-weight: 500;
+}
+@media (min-width:586px){
+    input{
+        width: 100%;
+    }
+}
+@media (max-width:586px){
+    input{
+        width: 80%;
+    }
+}
