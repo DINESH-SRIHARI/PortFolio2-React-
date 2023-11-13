@@ -1,24 +1,36 @@
 import style from '../css/contact.module.css'
-import { useState ,useRef} from 'react';
+import {useRef} from 'react';
+import {useNavigate} from 'react-router-dom'
 function Contact(){
-    const [nam,setnam]=useState("");
-    const [mail,setmail]=useState('');
-    const [phno,setphno]=useState('');
-    const [message,setmess]=useState('');
+   let name=useRef("")
+   let mail=useRef("")
+   let phno=useRef("")
+   let message=useRef("")
+   const navigate =useNavigate()
     function clickHandler(){
-            setnam("");
-            setmail("");
-            setphno("");
-            setmess("");
+        let details={
+            name:name.current.value,
+            mail:mail.current.value,
+            phno:phno.current.value,
+            message:message.current.value,
+        }
+        fetch('https://todo-list-85144-default-rtdb.firebaseio.com/tasks',{
+            method:'post',
+            body:JSON.stringify(details),
+        }).then(()=>{
+            console.log(details);
+            navigate("/home");
+        })
+       
       
     }
     return (
         <div className={style.card}>
             <h1>Contact Me</h1>
-            <input type="text" name='Name' value={nam} placeholder="Name"/>
-            <input type="email" name='Mail' value={mail} placeholder="name@example.com"/>
-            <input type="text"  name='Phno' value={phno} placeholder="Phone"/>
-            <input type="text"  name='Message' value={message} placeholder="Message"/>
+            <input type="text" name='Name' ref={name} placeholder="Name"/>
+            <input type="email" name='Mail' ref={mail} placeholder="name@example.com"/>
+            <input type="text"  name='Phno' ref={phno} placeholder="Phone"/>
+            <input type="text"  name='Message' ref={message} placeholder="Message"/>
            
             <div className={style.icons}>
             <button className={style.btn} onClick={clickHandler}>Submit</button>
