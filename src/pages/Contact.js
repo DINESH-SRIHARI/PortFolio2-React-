@@ -9,17 +9,17 @@ function Contact(){
    const navigate =useNavigate()
     function clickHandler(){
         let details={
-            name:name.current.value,
-            mail:mail.current.value,
-            phno:phno.current.value,
-            message:message.current.value,
+            username:name.current.value,
+            usermail:mail.current.value,
+            userphno:phno.current.value,
+            usermessage:message.current.value,
         }
-        fetch('https://todo-list-85144-default-rtdb.firebaseio.com/tasks',{
+        fetch('https://portfolio-database-ad8f7-default-rtdb.firebaseio.com/information.json',{
             method:'post',
-            body:JSON.stringify(details),
+            body:JSON.stringify(details)
         }).then(()=>{
             console.log(details);
-            navigate("/home");
+            navigate("/");
         })
        
       
