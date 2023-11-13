@@ -8,7 +8,7 @@ function Nav() {
       <div className={style.nav}>
         <div>
             <Link to='/'  ><img src={img} className={style.img}/>
-                <h1>  Srihari  Dinesh</h1>
+                <h1 className={style.name}>  Srihari  Dinesh</h1>
             </Link>
         </div>
         <div className={style.bar}>

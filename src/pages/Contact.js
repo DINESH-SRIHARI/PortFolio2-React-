@@ -1,5 +1,5 @@
 import style from '../css/contact.module.css'
-import {useRef} from 'react';
+import {useRef,useState} from 'react';
 import {useNavigate} from 'react-router-dom'
 function Contact(){
    let name=useRef("")
@@ -7,7 +7,9 @@ function Contact(){
    let phno=useRef("")
    let message=useRef("")
    const navigate =useNavigate()
+   let [load,setload]=useState(false)
     function clickHandler(){
+        setload(true)
         let details={
             username:name.current.value,
             usermail:mail.current.value,
@@ -18,7 +20,7 @@ function Contact(){
             method:'post',
             body:JSON.stringify(details)
         }).then(()=>{
-            console.log(details);
+            setload(false)
             navigate("/");
         })
        
@@ -26,7 +28,8 @@ function Contact(){
     }
     return (
         <div className={style.card}>
-            <h1>Contact Me</h1>
+            <span className={style.loader}></span>
+            <h1>Contact Me <span className={load === true ? style.loade : ''}></span></h1>
             <input type="text" name='Name' ref={name} placeholder="Name"/>
             <input type="email" name='Mail' ref={mail} placeholder="name@example.com"/>
             <input type="text"  name='Phno' ref={phno} placeholder="Phone"/>
