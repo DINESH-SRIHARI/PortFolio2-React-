@@ -28,6 +28,7 @@ h2{
     color:  #09b426;
     border-left: 4px solid  #06bb2d;
     position: relative;
+    
 }
 .sub4{
     margin: 20px auto;
@@ -83,22 +84,7 @@ p{
     font-weight: 400;
    
 }
-strapl{
-    width: 4px;
-    height: 6px;
-    position: absolute;
-    background-color: green;
-    top: 30px;
-    left: 0;
-}
-strapr{
-    width: 4px;
-    height: 6px;
-    position: absolute;
-    background-color: green;
-    top: 30px;
-    right: 0;
-}
+
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -120,7 +106,7 @@ p{
     .sub2{
         width: 800px;
     }
-    .sub4{
+    .sub3{
         width: 800px;
     }
     .sub4{

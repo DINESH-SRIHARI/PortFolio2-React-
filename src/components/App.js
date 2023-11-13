@@ -15,7 +15,7 @@ function App() {
       <Nav/>
     <div className='flex'>
         <Routes>
-          <Route path='/Home' element={<Home/>}/>
+          <Route path='/' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/c' element={<Contact/>}/>
           <Route path='/p' element={<Projects/>}/>

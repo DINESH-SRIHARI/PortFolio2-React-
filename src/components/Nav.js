@@ -7,7 +7,7 @@ function Nav() {
     return (
       <div className={style.nav}>
         <div>
-            <Link to='/Home'  ><img src={img} className={style.img}/>
+            <Link to='/'  ><img src={img} className={style.img}/>
                 <h1>  Srihari  Dinesh</h1>
             </Link>
         </div>
