@@ -224,6 +224,30 @@ h1:hover{
     
     margin: 20px auto;
 }
+.barr{
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    position: relative;
+    display: inline;
+}
+.dropdown{
+    margin: 9px;
+   
+    cursor: pointer;
+}
+.hide{
+    position: absolute;
+    display: none;
+}
+.dropdown:hover .hide{
+    display: block;
+}
+.size{
+    font-size: 30px;
+    margin: 6px;
+}
 @media(min-width: 586px){
     .main{
         width: 900px;

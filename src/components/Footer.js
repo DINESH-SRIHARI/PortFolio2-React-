@@ -4,6 +4,11 @@ import { faReact } from '@fortawesome/free-brands-svg-icons'
 function Footer(){
     return(
         <div className={style.foot}>
+            
+
+
+
+
             Made With <FontAwesomeIcon icon={faReact} style={{color: "#1f5141",}} /> |<span className={style.nam}>SRIHARI DINESH</span> 
             
         </div>

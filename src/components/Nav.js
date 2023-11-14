@@ -1,8 +1,6 @@
 import style from '../css/nav.module.css';
 import { Link } from 'react-router-dom';
-import img from '../images/logo.png'
-import dark from '../images/dark.png'
-import ligth from '../images/light.png'
+import img from '../images/logod.png'
 function Nav() {
     return (
       <div className={style.nav}>

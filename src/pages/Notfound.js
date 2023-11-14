@@ -1,7 +1,8 @@
+import dnf from '../images/dnf.png'
 function Notfound(){
     return (
-        <div>
-            Notfound
+        <div style={{ marginLeft: '300px' }}>
+            <img src={dnf}/>
         </div>
     )
 }

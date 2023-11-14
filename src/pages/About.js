@@ -157,7 +157,8 @@ function About(){
             <div className={style.profle}>
               <img src={hacker} className={style.proimg} />
               <div>
-                <h2>HACKER RANK</h2>
+                <a href='https://www.hackerrank.com/profile/dinnydinesh99'><h2>HACKER RANK</h2></a>
+                
                 <h3>
                   "I have successfully solved No-SQL and DSA problems, achieving
                   a 3-⭐ in No-SQL."
@@ -167,7 +168,7 @@ function About(){
             <div className={style.profle}>
               <img src={leet} className={style.proimg} />
               <div>
-                <h2>LeetCode</h2>
+              <a href='https://leetcode.com/din_ash/'><h2>LEET CODE</h2></a>
                 <h3>
                   "I have solved more than 250 problems and posted over 10
                   solutions, achieving a rank of 246,327"
@@ -176,7 +177,7 @@ function About(){
             </div>
             <div className={style.profle}>
               <div>
-                <h2>Git Hub</h2>
+              <a href='https://github.com/DINESH-SRIHARI'><h2>GitHub</h2></a>
                 <h3>
                   "I have a strong understanding of Git and GitHub skills. I
                   have posted all my projects and have 20 repositories on
@@ -187,7 +188,7 @@ function About(){
             </div>
             <div className={style.profle}>
               <div>
-                <h2>GFG</h2>
+              <a href='https://auth.geeksforgeeks.org/user/dineshxt8d'><h2>GFG</h2></a>
                 <h3>
                   "I have participated in most of the coding challenges, solved
                   all the basic and advanced DSA (Data Structures and Algorith
@@ -199,9 +200,9 @@ function About(){
             </div>
             <div className={style.profle}>
               <div>
-                <h2>Dribble</h2>
+              <a href='https://dribbble.com/Din_ash'><h2>Dribble</h2></a>
                 <h3>
-                  "Just Started My journey Using the Dribble Posted fre Front
+                  "Just Started My journey Using the Dribble Posted few Front
                   end Web_Designs"
                 </h3>
               </div>
