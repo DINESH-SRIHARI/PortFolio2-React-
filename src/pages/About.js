@@ -191,8 +191,7 @@ function About(){
               <a href='https://auth.geeksforgeeks.org/user/dineshxt8d'><h2>GFG</h2></a>
                 <h3>
                   "I have participated in most of the coding challenges, solved
-                  all the basic and advanced DSA (Data Structures and Algorith
-                  ms) problems on this profile, and achieved a good rank in the
+                  all the basic and advanced DSA problems on this profile, and achieved a good rank in the
                   college coding challenges."
                 </h3>
               </div>
