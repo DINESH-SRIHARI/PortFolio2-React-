@@ -321,3 +321,45 @@ h1:hover{
         
     }
 }
+@media(max-width: 430px){
+    h1{
+        font-size: 20px;
+    }
+    .main{
+        width: 400px;  
+    }
+    .educ{
+        width: 400px;
+    }
+    .sec{
+        width: 380px;
+        margin-left: 0px;
+    }
+    .pics{
+        width: 350px;
+    }
+    .skillContainer{
+        width: 20%;
+       
+    }
+    .skils{
+        width: 400px;
+        margin: 10px auto;
+    }
+    .skills{
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-direction: row;
+        margin-left: 0px;
+        padding: 0px;
+        
+    }
+    .ppp{
+        width: 400px;
+        margin: 30px auto;
+        
+    }
+}

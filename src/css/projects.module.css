@@ -1,6 +1,6 @@
 .main{
     margin: 20px auto;
-    border-left: 4px solid rgb(192, 43, 68);
+   
     color: rgb(192, 43, 68);
 }
 h1{
@@ -99,6 +99,7 @@ p{
 @media(min-width:586px){
     .main{
         width: 900px;
+        border-left: 4px solid rgb(192, 43, 68);
     }
     .sub1{
         width: 800px;
@@ -122,6 +123,7 @@ p{
 @media(max-width:586px){
     .main{
         width: 500px;
+        border-left: 4px solid rgb(192, 43, 68);
     }
     .sub1{
         width: 450px;
@@ -140,5 +142,29 @@ p{
     }
     .card{
         width: 440px;
+    }
+}
+@media(max-width:430px){
+    .main{
+        width: 400px;
+        border-left: 4px solid rgb(0, 0, 0);
+    }
+    .sub1{
+        width: 380px;
+    }
+    .sub2{
+        width: 380px;
+    }
+    .sub3{
+        width: 380px;
+    }
+    .sub4{
+        width: 380px;
+    }
+    .img{
+        width: 370px;
+    }
+    .card{
+        width: 375px;
     }
 }

@@ -28,8 +28,8 @@ function Contact(){
     }
     return (
         <div className={style.card}>
-            <span className={style.loader}></span>
-            <h1>Contact Me <span className={load === true ? style.loade : ''}></span></h1>
+            
+            <h1>Contact Me <span className={load == true ? style.loade : ''}></span></h1>
             <input type="text" name='Name' ref={name} placeholder="Name"/>
             <input type="email" name='Mail' ref={mail} placeholder="name@example.com"/>
             <input type="text"  name='Phno' ref={phno} placeholder="Phone"/>
