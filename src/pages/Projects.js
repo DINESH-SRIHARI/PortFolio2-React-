@@ -5,7 +5,6 @@ import shawarma from "../images/shawarma.jpeg";
 import arduino from "../images/arduino.png";
 import movie from "../images/movie bites.png";
 import portfo from "../images/Portfolio.jpg";
-import reg from "../images/Authentication.png";
 import audio from '../images/audio.png';
 import insta from '../images/webpage.png'
 import met from "../images/girl-attending-online-metting-through-group-call-vector-35719855.jpg";
@@ -34,7 +33,7 @@ function Projects() {
                 </span>
             </p>
             <div className={style.a}>
-              <a href="https://github.com/DINESH-SRIHARI/SpaceX-First-Stage-Success-Landing-Prediction">
+              <a href="https://github.com/DINESH-SRIHARI/SpaceX-First-Stage-Success-Landing-Prediction" target="blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
@@ -74,7 +73,7 @@ function Projects() {
                 </span>
             </p>
             <div className={style.a}>
-              <a href="https://github.com/DINESH-SRIHARI/flipkart-sale-analysis">
+              <a href="https://github.com/DINESH-SRIHARI/flipkart-sale-analysis" target="blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
@@ -115,7 +114,7 @@ function Projects() {
                 </span>
             </p>
             <div className={style.a}>
-              <a href="https://github.com/DINESH-SRIHARI/shawarma-online-ordering-page">
+              <a href="https://github.com/DINESH-SRIHARI/shawarma-online-ordering-page" target="blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
@@ -156,7 +155,7 @@ function Projects() {
                 </span>
             </p>
             <div className={style.a}>
-              <a href="https://github.com/DINESH-SRIHARI/Echo-Audio-Converter">
+              <a href="https://github.com/DINESH-SRIHARI/Echo-Audio-Converter" target="blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
@@ -203,7 +202,7 @@ function Projects() {
                 </span>
               </p>
               <div className={style.a}>
-                <a href="https://github.com/DINESH-SRIHARI/movie-api">
+                <a href="https://github.com/DINESH-SRIHARI/movie-api" target="blank">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="30"
@@ -226,12 +225,12 @@ function Projects() {
                     <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
                   </svg>
                 </a>
-                <a href="https://movie-bitess.vercel.app/">MovieBuzz.com</a>
+                <a href="https://movie-bitess.vercel.app/" target="blank">MovieBuzz.com</a>
               </div>
             </div>
           </div>
           <div className={style.card1}>
-            <img src={insta} className={style.img1} />
+            <img src={insta} className={style.img1} style={{ height: "200px", objectFit:"cover"}} />
             <div className={style.mess}>
               <p>
                 Authentication verification & upload image in real time using{" "}
@@ -240,7 +239,7 @@ function Projects() {
                 </span>{" "}
               </p>
               <div className={style.a}>
-                <a href="https://github.com/DINESH-SRIHARI/instagram-homepage">
+                <a href="https://github.com/DINESH-SRIHARI/instagram-homepage" target="blank">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="30"
@@ -263,7 +262,7 @@ function Projects() {
                     <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
                   </svg>
                 </a>
-                <a href="https://postpixel.vercel.app/">PostPixels.com</a>
+                <a href="https://postpixel.vercel.app/" target="blank">PostPixels.com</a>
               </div>
             </div>
           </div>
@@ -275,7 +274,7 @@ function Projects() {
                 <span style={{ color: "rgb(9, 124, 124)" }}>#HTML,#CSS</span>
               </p>
               <div className={style.a}>
-                <a href="https://github.com/DINESH-SRIHARI/SpaceX-First-Stage-Success-Landing-Prediction">
+                <a href="https://github.com/DINESH-SRIHARI/SpaceX-First-Stage-Success-Landing-Prediction" target="blank">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="30"
@@ -298,21 +297,21 @@ function Projects() {
                     <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
                   </svg>
                 </a>
-                <a href="https://sriharidinesh.netlify.app/">
+                <a href="https://sriharidinesh.netlify.app/" target="blank">
                   SrihariDinesh.com
                 </a>
               </div>
             </div>
           </div>
           <div className={style.card1}>
-            <img src={met} className={style.img1} />
+            <img src={met} className={style.img1} style={{ height: "200px", objectFit:"cover"}}/>
             <div className={style.mess}>
               <p>
                 Metting App using{" "}
                 <span style={{ color: "rgb(9, 124, 124)" }}>#ReactJS</span>
               </p>
               <div className={style.a}>
-                <a href="https://github.com/DINESH-SRIHARI/meeting-app">
+                <a href="https://github.com/DINESH-SRIHARI/meeting-app" target="blank">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="30"
@@ -335,7 +334,7 @@ function Projects() {
                     <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
                   </svg>
                 </a>
-                <a href="https://meeting-app-roan.vercel.app/">Meeting.com</a>
+                <a href="https://meeting-app-roan.vercel.app/" target="blank">Meeting.com</a>
               </div>
             </div>
           </div>
@@ -355,7 +354,7 @@ function Projects() {
                 </span>
             </p>
             <div className={style.a}>
-              <a href="https://drive.google.com/file/d/115BZP7dQyz46_avdqyNg3qKgumoBA3J3/view?usp=drivesdk">
+              <a href="https://drive.google.com/file/d/115BZP7dQyz46_avdqyNg3qKgumoBA3J3/view?usp=drivesdk" target="blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
