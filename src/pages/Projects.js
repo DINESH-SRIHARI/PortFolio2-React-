@@ -64,7 +64,7 @@ function Projects() {
           <div className={style.mess}>
             <p>
               In my Python-based Flipkart data analysis, I pinpointed the state
-              with the highest purchases, highlighting [state name]. The
+              with the highest purchases, highlighting highest purchase state&age group. The
               analysis also unveiled the predominant gender influencing these
               transactions. This data-driven insight informs strategic decisions
               in e-commerce operations.
