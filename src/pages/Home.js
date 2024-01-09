@@ -14,7 +14,7 @@ function Home(){
                     <h1>Hey I am Dinesh....🙋‍♂️</h1>
                     <h3>I'm a B.Tech student at VIT, majoring in computer science 🧑‍💻. My passion lies in front-end development , software Development, machine learning, and cloud computing. I'm committed to staying at the forefront of technology, constantly adapting, and exploring emerging tech. Together, let's create, innovate, and shape the future.</h3>   
                     <div className={style.pea} >
-                    <a href='SRIHARI_DINESH_Resume.pdf' download='SRIHARI_DINESH_Resume.pdf'>
+                    <a href='SRIHARI_DINESH_Resume.pdf' download='SRIHARI_DINESH_Resume (3).pdf'>
                 <div className={style.btn}>
                     <p className={style.txt}>Resume</p>
                     <div>
