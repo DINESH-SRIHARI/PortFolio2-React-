@@ -12,7 +12,7 @@ function Home(){
 
                 <div className={style.left}>
                     <h1>Hey I am Dinesh....🙋‍♂️</h1>
-                    <h3>I'm a B.Tech student at VIT, majoring in computer science 🧑‍💻. My passion lies in front-end development , software Development, machine learning, and cloud computing. I'm committed to staying at the forefront of technology, constantly adapting, and exploring emerging tech. Together, let's create, innovate, and shape the future.</h3>   
+                    <h3>I'm a B.Tech student at VIT, majoring in computer science 🧑‍💻. My passion lies in front-end development ,Full-Stack Development, software Development, machine learning, and cloud computing. I'm committed to staying at the forefront of technology, constantly adapting, and exploring emerging tech. Together, let's create, innovate, and shape the future.</h3>   
                     <div className={style.pea} >
                     <a href='sriharidinesh.pdf' download='sriharidinesh.pdf' >
                 <div className={style.btn}>
