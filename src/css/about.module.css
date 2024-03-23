@@ -191,6 +191,16 @@ h2{
     flex-grow: 0.15;
     background-color: #F0DB4F;
 }
+.skillsItem:nth-of-type(14){
+    flex-grow: 0.15;
+    border: 2px solid #F0DB4F;
+    color: #F0DB4F;
+}
+.skillsItem:nth-of-type(13){
+    flex-grow: 0.1;
+    border: 2px solid rgb(190, 56, 56);
+    color: rgb(190, 56, 56);
+}
 
 .sassLogo{
     font-size: 20px;

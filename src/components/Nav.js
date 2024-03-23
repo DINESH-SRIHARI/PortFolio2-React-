@@ -17,13 +17,6 @@ function Nav() {
 
 
         
-
-
-
-        {/* <button onClick={changeHandler}  className={style.imgd}>
-        <img src={background==ligth?dark:ligth}/> */}
-       
-        
       </div>
     );
   }   

@@ -25,6 +25,7 @@ imgd{
     justify-content: space-around;
     box-shadow: 0.5px 0.5px 1px 1px lightblue;
     border-radius: 30px;
+    animation: slidetop 1s ease forwards;
 }
 .hov{
     transition: 0.5s;
@@ -53,4 +54,23 @@ imgd{
     display: flex;
     justify-content: space-around;
     border-radius: 30px;
+}
+.name{
+    animation: sliderit 1s ease forwards;
+}
+@keyframes sliderit {
+    0%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+@keyframes slidetop {
+    0%{
+        transform: translatey(-100px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
 }

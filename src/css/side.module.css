@@ -9,6 +9,15 @@
         margin: 100px auto;
         text-align: center;
         transition:0.785s;
+        animation: sliderit 1s ease forwards;
+    }
+    @keyframes sliderit {
+        0%{
+            transform: translateX(-100px);
+        }
+        100%{
+            transform: translateX(0px);
+        }
     }
     .side:hover{
         padding: 3px;

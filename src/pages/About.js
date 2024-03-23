@@ -28,7 +28,7 @@ function About(){
             <h3>Bachelor of Technology</h3>
             <h4>computer science and engineering</h4>
             <h4>vellore institute of technology</h4>
-            <div className={style.marks}>8.4cgpa</div>
+            <div className={style.marks}>8.42cgpa</div>
             <div className={style.year}>2020-2024</div>
           </div>
           <div className={style.sec}>
@@ -143,9 +143,11 @@ function About(){
                 </li>
                 <li className={style.skillsItem}>#MongoDB</li>
                 <li className={style.skillsItem}>
-                  <FontAwesomeIcon icon={faJs} className={style.sassLogo} />
-                  #Javascript
+                  <FontAwesomeIcon icon={faJs} className={style.sassLogo} style={{ color: 'black' }} />
+                  <span style={{ color: 'black' }}>#javaScript</span>
                 </li>
+                <li className={style.skillsItem}>#Express</li>
+                <li className={style.skillsItem}>#FireBase</li>
               </ul>
             </div>
           </div>
@@ -160,7 +162,7 @@ function About(){
                 <a href='https://www.hackerrank.com/profile/dinnydinesh99'><h2>HACKER RANK</h2></a>
                 
                 <h3>
-                  "I have successfully solved No-SQL and DSA problems, achieving
+                  "I have successfully solved My-SQL and DSA problems, achieving
                   a 3-⭐ in No-SQL."
                 </h3>
               </div>
@@ -170,8 +172,8 @@ function About(){
               <div>
               <a href='https://leetcode.com/din_ash/'><h2>LEET CODE</h2></a>
                 <h3>
-                  "I have solved more than 250 problems and posted over 10
-                  solutions, achieving a rank of 246,327"
+                  "I have solved more than 400 problems and posted over 10
+                  solutions, achieving a rank of 160,327"
                 </h3>
               </div>
             </div>
@@ -180,7 +182,7 @@ function About(){
               <a href='https://github.com/DINESH-SRIHARI'><h2>GitHub</h2></a>
                 <h3>
                   "I have a strong understanding of Git and GitHub skills. I
-                  have posted all my projects and have 20 repositories on
+                  have posted all my projects and have 40 repositories on
                   GitHub."
                 </h3>
               </div>
@@ -197,16 +199,7 @@ function About(){
               </div>
               <img src={gfg} className={style.proimg} />
             </div>
-            <div className={style.profle}>
-              <div>
-              <a href='https://dribbble.com/Din_ash'><h2>Dribble</h2></a>
-                <h3>
-                  "Just Started My journey Using the Dribble Posted few Front
-                  end Web_Designs"
-                </h3>
-              </div>
-              <img src={dribble} className={style.proimg} />
-            </div>
+            
           </div>
         </div>
       </div>
